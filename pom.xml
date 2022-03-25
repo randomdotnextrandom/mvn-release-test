@@ -8,6 +8,17 @@
   <artifactId>mvn-release-test</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
+
+  <properties>
+    <my.developer.url>https://github.com/randomdotnextrandom/mvn-release-test</my.developer.url>
+    <my.developer.connection>scm:git:ssh://git@github.com:/randomdotnextrandom/mvn-release-test.git</my.developer.connection>
+  </properties>
+  <scm>
+    <url>${my.developer.url}</url>
+    <connection>${my.developer.connection}</connection>
+    <developerConnection>${my.developer.connection}</developerConnection>
+  </scm>
+
   <modules>
     <module>parent</module>
   </modules>
