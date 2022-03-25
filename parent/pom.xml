@@ -4,6 +4,15 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <properties>
+    <my.developer.url>https://github.com/randomdotnextrandom/mvn-release-test</my.developer.url>
+    <my.developer.connection>scm:git:ssh://git@github.com:/randomdotnextrandom/mvn-release-test.git</my.developer.connection>
+    </properties>
+  <scm>
+    <url>${my.developer.url}</url>
+    <connection>${my.developer.connection}</connection>
+    <developerConnection>${my.developer.connection}</developerConnection>
+  </scm>
   <groupId>org.example</groupId>
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
