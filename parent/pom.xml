@@ -18,12 +18,12 @@
     <url>${my.developer.url}</url>
     <connection>${my.developer.connection}</connection>
     <developerConnection>${my.developer.connection}</developerConnection>
-    <tag>parent-1.1</tag>
+    <tag>HEAD</tag>
   </scm>
   <groupId>org.example</groupId>
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.1</version>
+  <version>1.2-SNAPSHOT</version>
   <modules>
     <module>child-1</module>
     <module>child-2</module>
